@@ -15,3 +15,4 @@ Background:
   Scenario: Verify User Cannot Login with Invalid Credentials
     When user enter the invalid credentials
     Then verify invalid login error message is displayed
+    And close browser
